@@ -40,6 +40,7 @@ During installation, make sure to check:
 Open **Command Prompt** inside the project folder and run:
 ```bash
 pip install -r requirements.txt
+```
 ▶️ Usage
 
 Put the image you want to detect inside the assets folder
@@ -50,9 +51,10 @@ ready.png
 
 
 Run the script:
-
+```bash
 python main.py
-
+```
+or just open main.py
 ⏳ How It Works
 
 The script waits 3 seconds before starting
@@ -67,7 +69,7 @@ Keeps running until stopped manually
 
 Press the following keys to stop the script safely:
 
-Ctrl + X (deafault)
+Ctrl + X (default)
 
 ⚠️ Notes
 
@@ -78,3 +80,4 @@ Image detection accuracy depends on screen resolution and scaling
 You can adjust detection sensitivity in the code by changing:
 
 confidence = 0.8
+
